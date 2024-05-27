@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+
+header{
+
+display: flex;
+justify-content: space-around;
+padding-top: 1rem;
+align-items: center;
+text-align: center;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+position: fixed;
+transition: all .35s ease;
+background-color: #4BB2F2;
+padding: 20px 20px;
+}
+
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+body{
+    background-color:white;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.icon span{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: white;
+}
+
+.section{
+    padding-top: 7rem;
+}
+
+.section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container-cards-um{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 3rem;
+ padding-top: 2rem;
+
+
+}
+
+.cards img{
+    width: 300px;
+    height: auto;
+    transition: 0.35s ease;
+    border: #4BB2F2 solid 15px;
+}
+
+.cards img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+}
+
+.Meio button{
+    background-color:#0487D9;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+   font-size: 1.5rem;
+   cursor: pointer;
+   transition: 0.3s;
+   font-family:Century Gothic;
+}
+
+.Meio button:hover{
+      background-color:#4BB2F2;
+      transform: scaleY(1.2);
+}
+
+.Meio button{
+   margin-top: 10px;
+   margin-left: 800px;
+}
+
+footer{
+bottom: 0;
+position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+
+    

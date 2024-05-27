@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+
+header{
+
+display: flex;
+justify-content: space-around;
+padding-top: 1rem;
+align-items: center;
+text-align: center;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+position: fixed;
+transition: all .35s ease;
+background-color: #4BB2F2;
+padding: 20px 20px;
+}
+
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+body{
+    background-color:white;
+    padding: 100px;
+}
+
+
+.cartaz img{
+    align-items: flex-start;
+  padding: 300;
+  width: 30rem;
+  height: 40rem;
+}
+
+.cartaz{
+    display: table;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+    border: 10px solid #4BB2F2;
+}
+
+.texto{
+    display: table-cell;
+    float: left;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.texto{
+    font-size:Century Gothic;
+    font-size: 23px;
+    font-weight: bold;
+    width: 600px;
+}
+
+
+.nomeF{
+    font-family:Century Gothic;
+    font-size:40px;
+    padding: 30px;
+   
+}
+
+.descrição{
+    font-family:Century Gothic;
+    font-size:15px;
+    text-align: center;
+}
+
+.icon span{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: white;
+}
+
+.Meio button{
+    background-color:#0487D9;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+   font-size: 1.5rem;
+   cursor: pointer;
+   transition: 0.3s;
+   font-family:Century Gothic;
+}
+
+.Meio button:hover{
+      background-color:#4BB2F2;
+      transform: scaleY(1.2);
+}
+
+.Meio button{
+   margin-top: 10px;
+   margin-left: 913px;
+}
+
+.preco h3{
+    font-size: 2.5rem;
+    font-family:Century Gothic;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 940px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
